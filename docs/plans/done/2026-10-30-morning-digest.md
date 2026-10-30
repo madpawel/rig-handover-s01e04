@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
+closed: 2026-10-30
 ---
 
 # Morning digest
@@ -77,3 +78,23 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+Authoritative tracker: GitHub issues in `madpawel/rig-handover-s01e04`.
+
+- [#1](https://github.com/madpawel/rig-handover-s01e04/issues/1)
+- [#2](https://github.com/madpawel/rig-handover-s01e04/issues/2)
+- [#3](https://github.com/madpawel/rig-handover-s01e04/issues/3)
+- [#4](https://github.com/madpawel/rig-handover-s01e04/issues/4)
+- [#5](https://github.com/madpawel/rig-handover-s01e04/issues/5)
+- [#6](https://github.com/madpawel/rig-handover-s01e04/issues/6)
+- [#7](https://github.com/madpawel/rig-handover-s01e04/issues/7)
+
+## Completion
+
+Review was received. The same public preview URL,
+https://madpawel.github.io/rig-handover-s01e04/, now has no lane marker and displays
+"no marker set", retaining all five sample jobs. The coordinator reports 69 tests and
+typecheck pass. Issues #1–#6 are closed; #7 awaits coordinator closure after this
+archive is pushed.
