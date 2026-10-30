@@ -22,7 +22,9 @@ function tableRows(html: string): string[] {
 }
 
 function jobRow(html: string, job: string): string {
-  const matches = tableRows(html).filter((row) => row.includes(job));
+  const matches = tableRows(html).filter((row) =>
+    row.match(/<(?:th|td)\b[^>]*>([\s\S]*?)<\/(?:th|td)>/i)?.[1] === job,
+  );
   expect(matches).toHaveLength(1);
   return matches[0]!;
 }
